@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>株式会社Ark</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="gazou/headericon.png" alt="Ark ロゴ">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#services">事業内容</a></li>
+                <li><a href="#works">制作実績</a></li>
+                <li><a href="#company">会社概要</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="main-visual">
+        <div class="hero-container">
+            <img src="gazou/header.png" alt="メインビジュアル" class="hero-img">
+            <div class="hero-text">
+                <h1>株式会社Ark</h1>
+                <p>想いを形に、さらなる飛躍へ</p>
+            </div>
+        </div>
+    </header>
+
+    <section id="services" class="section">
+        <h2 class="section-title">事業内容</h2>
+        <div class="grid-3">
+            <div class="item">
+                <img src="gazou/webseisaku.png" alt="WEB制作">
+                <p>WEB制作</p>
+            </div>
+            <div class="item">
+                <img src="gazou/apurikaihatsu.png" alt="アプリ開発">
+                <p>アプリ開発</p>
+            </div>
+            <div class="item">
+                <img src="gazou/gyoumukouritsuka.png" alt="業務自動化ツール制作">
+                <p>業務自動化ツール制作</p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="separator">
+
+    <section id="works" class="section">
+        <h2 class="section-title">制作実績</h2>
+        <div class="grid-4">
+            <div class="item">
+                <div class="icon-box"><img src="gazou/bouhan.png" alt="防犯アプリ"></div>
+                <p>防犯アプリ</p>
+            </div>
+            <div class="item">
+                <div class="icon-box"><img src="gazou/fudosan.png" alt="不動産システム"></div>
+                <p>不動産システム</p>
+            </div>
+            <div class="item">
+                <div class="icon-box"><img src="gazou/radar.png" alt="営業ツール"></div>
+                <p>営業ツール</p>
+            </div>
+            <div class="item">
+                <div class="icon-box"><img src="gazou/nougyou.png" alt="農業アプリ"></div>
+                <p>農業アプリ</p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="separator">
+
+    <section id="company" class="section">
+        <h2 class="section-title">会社概要</h2>
+        <div class="company-flex">
+            <div class="company-info">
+                <p><strong>所在地：</strong></p>
+                <p>〒115-0045</p>
+                <p>東京都北区赤羽1-54-11</p>
+                <p>CDビルディング6F</p>
+            </div>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3237.152864195325!2d139.71887017633215!3d35.77771262497672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601893198089408d%3A0xc3c97e556488737e!2z44CSMTE1LTAwNDUg5p2x5Lqs6YO95YyX5Yy66L赤576977yR5LiB55uu77yV77yU4oiS77yR77yR!5e0!3m2!1sja!2sjp!4v1709192400000!5m2!1sja!2sjp" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <hr class="separator">
+
+    <section id="contact" class="section">
+        <div class="form-container">
+            <h2 class="form-title">お問い合わせフォーム</h2>
+            <form action="https://formspree.io/f/xjgezlze" method="POST">
+                <div class="form-group">
+                    <label>名前 <span>*</span></label>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label>メール <span>*</span></label>
+                    <input type="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label>お問い合わせ内容 <span>*</span></label>
+                    <textarea name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">送信する</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
